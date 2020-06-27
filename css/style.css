@@ -72,24 +72,18 @@ body img {
     display: none;
 }
 
-/* Hamburger */
-
-.hamburger div{
-    width: 30px;
-    height:3px;
-    background: #f2f5f7;
-    margin: 5px;
-    transition: all 0.3s ease;
-}
-.hamburger{
-    display: none;
-}
 
 /* Giving a background-color to the nav container. */
 
 nav {
     margin: 0;
     padding: 0;
+}
+
+.img-nav{
+    width: 46px;
+    height: 46px;
+
 }
 
 a.navbar-brand {
@@ -106,9 +100,9 @@ a.navbar-brand {
     display: initial;
 }
 
-#logo a img {
+/* #logo a img {
     height: 30px;
-}
+} */
 
 /* Since we'll have the "ul li" "float:left"
  * we need to add a clear after the container. */
