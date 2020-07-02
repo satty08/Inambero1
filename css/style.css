@@ -404,7 +404,8 @@ li>a:only-child:after {
     right: 0;
     z-index: 99;
     margin: 0 auto;
-    background: transparent;
+    /* background: black; */
+    opacity: 1;
     margin-top: 1.2em;
 }
 
@@ -2278,7 +2279,7 @@ a.move-top span {
 /*--//responsive--*/
 
 /* -------------- CSS --------------- */
-#lang-switch img {
+.img {
     width: 32px;
     height: 32px;
     opacity: 0.5;

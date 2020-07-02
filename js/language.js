@@ -2,12 +2,12 @@ $(document).ready(function(){
   
     // By default
     $('.en_lang').addClass("active-lang");
-    $('#lang-switch .en').addClass("active-flag");
+    $('.en').addClass("active-flag");
     
     // Function switch
     $(function() {
       // Spanish button
-      $("#lang-switch .es").click(function() {
+      $(".es").click(function() {
         // Enable Spanish
         $('.es_lang').addClass("active-lang"); 
         
@@ -15,12 +15,12 @@ $(document).ready(function(){
         $('.en_lang').removeClass("active-lang") 
         
         // Active or remove the opacity on the flags.
-        $('#lang-switch .es').addClass("active-flag");
-        $('#lang-switch .en').removeClass("active-flag");
+        $('.es').addClass("active-flag");
+        $('.en').removeClass("active-flag");
       });
       
       // English button
-      $("#lang-switch .en").click(function() {
+      $(".en").click(function() {
         
         // Enable English
         $('.en_lang').addClass("active-lang");
@@ -29,8 +29,8 @@ $(document).ready(function(){
         $('.es_lang').removeClass("active-lang")
         
         // Active or remove the opacity on the flags.
-        $('#lang-switch .en').addClass("active-flag");
-        $('#lang-switch .es').removeClass("active-flag");
+        $('.en').addClass("active-flag");
+        $('.es').removeClass("active-flag");
       });
     });
   });
