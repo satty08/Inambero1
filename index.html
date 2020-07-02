@@ -1,18 +1,17 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
--->
-
 <!DOCTYPE html>
-<html lang="zxx">
+<html>
 
 <head>
     <title>Inambero Solutions</title>
     <link rel="icon" href="./images/Logo_Transparent.png" type="image/x-icon">
     <!-- Meta tag Keywords -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
     <meta charset="UTF-8" />
-    <!-- <meta name="keywords" content="Infinitude Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" /> -->
+    <meta name="keywords" content="Infinitude Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
     <script>
         addEventListener("load", function() {
             setTimeout(hideURLbar, 0);
@@ -22,7 +21,7 @@ Author URL: http://w3layouts.com
             window.scrollTo(0, 1);
         }
 
-    </script>
+        </script>
     <!-- //Meta tag Keywords -->
     <!-- Custom-Files -->
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -72,7 +71,6 @@ Author URL: http://w3layouts.com
                         </li>
                         <!-- <li><a href="#gallery">Projects</a></li> -->
                         <li><a href="contact.html">Contact</a></li>
-
                         <li class="social-icons ml-lg-3"><a href="#" class="p-0 social-icon"><span class="fa fa-facebook-official" aria-hidden="true"></span>
                                 <div class="tooltip">Facebook</div>
                             </a> </li>
@@ -82,6 +80,12 @@ Author URL: http://w3layouts.com
                         <li class="social-icons"><a href="#" class="p-0 social-icon"><span class="fa fa-instagram" aria-hidden="true"></span>
                                 <div class="tooltip">Instagram</div>
                             </a> </li>
+                        <li><div id="lang-switch">
+                                <img src="https://cdn2.iconfinder.com/data/icons/europe-flags/154/spain-512.png" class="es">
+                                <img src="https://cdn3.iconfinder.com/data/icons/world-flags-asia/64/_india-512.png" class="en">
+                            </div>
+                        </li>
+                        </ul>
                     </ul>
                 </nav>
                 <!-- //nav -->
@@ -130,7 +134,10 @@ Author URL: http://w3layouts.com
             </div>
             <!-- banner-hny-info -->
             <div class="banner-hny-info">
-                    <h3>We are Inambero</h3>                
+                    <h3>
+                        <span class="en_lang caro">We are Inambero</span>
+                        <span class="es_lang caro">Nosotros somos inambero</span>
+                    </h3>            
                 <div class="top-buttons mx-auto text-center mt-md-5 mt-3">
                     <a href="single.html" class="btn more mr-2">Read More</a>
                     <a href="contact.html" class="btn">Contact Us</a>
@@ -169,11 +176,27 @@ Author URL: http://w3layouts.com
     <section class="about py-5">
         <div class="container p-md-5">
             <div class="about-hny-info text-left px-md-5">
-                <h3 class="tittle-w3ls mb-3"><span class="pink">We</span> Design & Build</h3>
-                <p class="sub-tittle mt-3 mb-4">Inambero is a solutions-first organization, whose aim is to bridge the existing gap between India and Latin-America. We provide tailor-made solutions for all businesses emerging between these nations who are looking to expand globally. 
-                </p>
-                <p>To provide the best of the IT and other business solutions to the medium and small scale business sector of the Latin American countries, who can not afford to invest a lot. However, we want them to have the benefits of the Ecommerce, information technology and globalization. 
-                </p>
+                <section>
+                    <h3 class="tittle-w3ls mb-3 en_lang"><span class="pink">We</span> Design & Build</h3>
+                    <h3 class="tittle-w3ls mb-3 es_lang"><span class="pink">Nosotras</span> Diseño de construcción</h3>
+                </section>
+                <section>
+                    <p class="sub-tittle mt-3 mb-4 en_lang">Inambero is a solutions-first organization, whose aim is to bridge the existing gap between India and Latin-America. We provide tailor-made solutions for all businesses emerging between these nations who are looking to expand globally. 
+                    </p>
+                    <p class="sub-tittle mt-3 mb-4 es_lang">Inambero es una empresa que surge a partir de la inquietud de establecer conexiones entre India y el
+                        mundo hispanohablante. Inambero proporciona soluciones simples y rentables a empresas de cualquier rubro
+                        y proporción; con un equipo eficaz y altamente capacitado, nuestro compromiso es ofrecer respaldo en
+                        marketing digital a cualquier negocio que busque expandirse más allá de una base local, dándoles acceso
+                        a herramientas para su operación a escala global.</p>
+                </section>
+                <section>
+                    <p class="sub-tittle mt-3 mb-4 en_lang">To provide the best of the IT and other business solutions to the medium and small scale business sector of the Latin American countries, who can not afford to invest a lot. However, we want them to have the benefits of the Ecommerce, information technology and globalization. 
+                    </p>
+                    <p class="sub-tittle mt-3 mb-4 es_lang">Brindar lo mejor de la TI y otras soluciones empresariales al sector empresarial de mediana y 
+                        pequeña escala de los países latinoamericanos, que no pueden permitirse invertir mucho. 
+                        Sin embargo, queremos que tengan los beneficios del comercio electrónico, la tecnología de la 
+                        información y la globalización.</p>
+                </section>
                 <a class="btn more black" href="single.html" role="button">Read More</a>
             </div>
         </div>
@@ -188,10 +211,19 @@ Author URL: http://w3layouts.com
                     <img src="images/about.jpg" alt=" " class="img-fluid">
                 </div>
                 <div class="col-md-6 banner_bottom_left mt-lg-0 mt-4">
-                    <h4><a class="link-hny" href="services.html">
-                            We’re Changing the Way You Work with Agencies</a></h4>
-                    <p>Inambero is a product of a vision to unite India, Latin America and Spain through trade. Our aim is to achieve this through strengthening the medium and small-scale sector by offering advanced technology used in the modern day e-commerce trade, information technology right at their footsteps, so they have a piece of the global business operation that we participate in today. 
-                    </p>
+                    <div>
+                        <h4><a class="link-hny en_lang" href="services.html">
+                                We’re Changing the Way You Work with Agencies</a></h4>
+                        <h4><a class="link-hny es_lang" href="services.html">
+                            Estamos cambiando la forma en que trabaja con las agencias</a></h4>
+                    </div>
+                    <div>
+                        <p class="en_lang">Inambero is a product of a vision to unite India, Latin America and Spain through trade. Our aim is to achieve this through strengthening the medium and small-scale sector by offering advanced technology used in the modern day e-commerce trade, information technology right at their footsteps, so they have a piece of the global business operation that we participate in today. 
+                        </p>
+                        <p class="es_lang">
+                            Inambero es el producto de una visión para unir India, América Latina y España a través del comercio. Nuestro objetivo es lograr esto mediante el fortalecimiento del sector de mediana y pequeña escala al ofrecer tecnología avanzada utilizada en el comercio moderno de comercio electrónico, tecnología de la información justo en sus pasos, para que tengan una parte de la operación comercial global en la que participamos hoy.
+                        </p>
+                    </div>
                     <a class="btn more black mt-3" href="services.html" role="button">Services Info</a>
 
                 </div>
@@ -205,7 +237,10 @@ Author URL: http://w3layouts.com
                             </div>
                         </div>
                         <div class="col-md-9 featured_grid_right_info pl-lg-0">
-                            <h4><a class="link-hny" href="single.html">Global Network</a></h4>
+                            <h4>
+                                <a class="link-hny en_lang" href="single.html">Global Network</a>
+                                <a class="link-hny es_lang" href="single.html">Red global</a>
+                            </h4>
                             <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
                         </div>
                     </div>
@@ -218,7 +253,10 @@ Author URL: http://w3layouts.com
                             </div>
                         </div>
                         <div class="col-md-9 featured_grid_right_info pl-lg-0">
-                            <h4><a class="link-hny" href="single.html">Digital Agency</a></h4>
+                            <h4>
+                                <a class="link-hny en_lang" href="single.html">Digital Agency</a>
+                                <a class="link-hny es_lang" href="single.html">Agencia digital</a>
+                            </h4>
                             <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
                         </div>
                     </div>
@@ -231,7 +269,10 @@ Author URL: http://w3layouts.com
                             </div>
                         </div>
                         <div class="col-md-9 featured_grid_right_info pl-lg-0">
-                            <h4><a class="link-hny" href="single.html">Trusted Partner</a></h4>
+                            <h4>
+                                <a class="link-hny en_lang" href="single.html">Trusted Partner</a>
+                                <a class="link-hny es_lang" href="single.html">Socio de confianza</a>
+                            </h4>
                             <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
                         </div>
                     </div>
@@ -248,7 +289,10 @@ Author URL: http://w3layouts.com
             <div class="container py-md-5">
                 <div class="row my-4">
                     <div class="col-lg-5 services-innfo pr-5">
-                        <h3 class="tittle-w3ls two mb-3 text-left"><span class="pink">What</span> We Provide</h3>
+                        <section>
+                            <h3 class="tittle-w3ls two mb-3 text-left en_lang"><span class="pink">What</span> We Provide</h3>
+                            <h3 class="tittle-w3ls two mb-3 text-left es_lang"><span class="pink">Qué</span> Nosotras proporcionamos</h3>
+                        </section>
                         <!-- Change the text -->
                         <!-- <p class="sub-tittle mt-2 mb-sm-3 text-left">Integer pulvinar leo id viverra feugiat. Pellentesque libero ut justo, semper at tempus vel, ultrices in ligula..</p> -->
                         <a href="services.html"><img src="images/services.jpg" alt="w3pvt" class="img-fluid"></a>
@@ -263,7 +307,10 @@ Author URL: http://w3layouts.com
                                         </div>
                                     </div>
                                     <div class="col-md-10 featured_grid_right_info">
-                                        <h4><a class="link-hny" href="single.html">Cost-Effective Websites</a></h4>
+                                        <h4>
+                                            <a class="link-hny en_lang" href="services.html">Cost-Effective Websites</a>
+                                            <a class="link-hny es_lang" href="services.html">Sitios web rentables</a>
+                                        </h4>
                                         <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
 
                                     </div>
@@ -278,7 +325,10 @@ Author URL: http://w3layouts.com
                                         </div>
                                     </div>
                                     <div class="col-md-10 featured_grid_right_info">
-                                        <h4><a class="link-hny" href="single.html">App Development and Websites</a></h4>
+                                        <h4>
+                                            <a class="link-hny en_lang" href="services.html">App Development and Websites</a>
+                                            <a class="link-hny es_lang" href="services.html">Desarrollo de aplicaciones y sitios web</a>
+                                        </h4>
                                         <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
 
                                     </div>
@@ -296,7 +346,10 @@ Author URL: http://w3layouts.com
                                         </div>
                                     </div>
                                     <div class="col-md-10 featured_grid_right_info">
-                                        <h4><a class="link-hny" href="single.html">Ecommerce solutions</a></h4>
+                                        <h4>
+                                            <a class="link-hny en_lang" href="services.html">Ecommerce solutions</a>
+                                            <a class="link-hny es_lang" href="services.html">Soluciones de comercio electrónico</a>
+                                        </h4>
                                         <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
 
                                     </div>
@@ -311,7 +364,10 @@ Author URL: http://w3layouts.com
                                         </div>
                                     </div>
                                     <div class="col-md-10 featured_grid_right_info">
-                                        <h4><a class="link-hny" href="single.html">Digital marketing solutions</a></h4>
+                                        <h4>
+                                            <a class="link-hny en_lang" href="services.html">Digital marketing solutions</a>
+                                            <a class="link-hny es_lang" href="services.html">Soluciones de marketing digital.</a>
+                                        </h4>
                                         <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
 
                                     </div>
@@ -326,7 +382,10 @@ Author URL: http://w3layouts.com
                                         </div>
                                     </div>
                                     <div class="col-md-10 featured_grid_right_info">
-                                        <h4><a class="link-hny" href="single.html">Re-designing their existing web pages, or apps</a></h4>
+                                        <h4>
+                                            <a class="link-hny en_lang" href="services.html">Re-designing their existing web pages, or apps</a>
+                                            <a class="link-hny es_lang" href="services.html">Rediseñando sus páginas web o aplicaciones existentes</a>
+                                        </h4>
                                         <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
 
                                     </div>
@@ -559,21 +618,27 @@ Author URL: http://w3layouts.com
                 <div class="col-lg-5 banner_bottom_left">
 
                     <div class="login p-md-5 p-4 mx-auto bg-white mw-100">
-                        <h4>
-                            Make An Appointment</h4>
+                        <section>
+                            <h4 class="en_lang">
+                                Make An Appointment</h4>
+                            <h4 class="es_lang">Haga una cita</h4>
+                        </section>
                         <form action="#" method="post">
                             <div class="form-group">
-                                <label>First name</label>
+                                <label class="en_lang">First name</label>
+                                <label class="es_lang">Nombre de pila</label>
 
                                 <input type="text" class="form-control" id="validationDefault01" placeholder="" required="">
                             </div>
                             <div class="form-group">
-                                <label>Last name</label>
+                                <label class="en_lang">Last name</label>
+                                <label class="es_lang">Apellido</label>
                                 <input type="text" class="form-control" id="validationDefault02" placeholder="" required="">
                             </div>
 
                             <div class="form-group mb-4">
-                                <label class="mb-2">Password</label>
+                                <label class="mb-2 en_lang">Password</label>
+                                <label class="mb-2 es_lang">Contraseña</label>
                                 <input type="password" class="form-control" id="password1" placeholder="" required="">
                             </div>
 
@@ -586,7 +651,10 @@ Author URL: http://w3layouts.com
                 </div>
                 <div class="col-lg-7 banner_bottom_grid help pl-lg-5">
                     <img src="images/mid.jpg" alt=" " class="img-fluid mb-4">
-                    <h4><a class="link-hny" href="contact.html">Start Your Project Now?</a></h4>
+                    <h4>
+                        <a class="link-hny en_lang" href="contact.html">Start Your Project Now?</a>
+                        <a class="link-hny es_lang" href="contact.html">Comience su proyecto ahora</a>
+                    </h4>
                     <p class="mt-3">Lorem Ipsum is simply text the printing and typesetting standard industry.Quisque sagittis lacus eu lorem. </p>
 
                 </div>
@@ -600,7 +668,10 @@ Author URL: http://w3layouts.com
     <section class="testmonials" id="test">
         <div class="over-lay-blue py-5">
             <div class="container py-md-5">
-                <h3 class="tittle-w3ls two text-center mb-5">Our Testimonials</h3>
+                <div>
+                    <h3 class="tittle-w3ls two text-center mb-5 en_lang caro">Our Testimonials</h3>
+                    <h3 class="tittle-w3ls two text-center mb-5 es_lang caro">Nuestros Testimonios</h3>
+                </div>
                 <div class="row my-4">
                     <div class="col-lg-4 testimonials_grid mt-3">
                         <div class="p-lg-5 p-4 testimonials-gd-vj">
@@ -777,6 +848,9 @@ Author URL: http://w3layouts.com
 
     </div>
     <!-- //copyright -->
+    <div>      
+    <!-- Script JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="./js/language.js"></script>
 </body>
 
