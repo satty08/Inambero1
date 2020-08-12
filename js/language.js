@@ -1,8 +1,8 @@
 $(document).ready(function(){
   
     // By default
-    $('.en_lang').addClass("active-lang");
-    $('.en').addClass("active-flag");
+    $('.es_lang').addClass("active-lang");
+    $('.es').addClass("active-flag");
     
     // Function switch
     $(function() {

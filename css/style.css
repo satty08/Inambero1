@@ -81,8 +81,9 @@ nav {
 }
 
 .img-nav{
-    width: 46px;
-    height: 46px;
+    width: 70px;
+    height: 55
+    px;
 
 }
 
@@ -425,7 +426,7 @@ li>a:only-child:after {
 
 
 #homepage-slider {
-    position: relative;
+    /* position: relative; */
 }
 
 .radio {
@@ -1220,13 +1221,33 @@ section.hand-crafted p {
 /*--/inner-w3pvt-page-- */
 
 .inner-w3pvt-page {
-    background: url(../images/banner1.jpg) no-repeat center;
+    /* background: url(../images/banner1.jpg) no-repeat center; */
+    /* background: linear-gradient(-45deg, #23d5ab,  #ee7752, #23a6d5, #f3f71b); */
+    /* animation: gradient 15s ease infinite; */
+    background-color: gray;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
     min-height: 11em;
+}
+
+/* @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */
+
+.imgnav{
+    height: 70px;
+    width: 90px;
 }
 
 .overlay-innerpage {
