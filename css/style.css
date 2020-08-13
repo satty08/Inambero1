@@ -2339,5 +2339,10 @@ a.move-top span {
   .caro{
     justify-content: center;
   }
+
+  .navli{
+      padding-left: 8px;
+      padding-right: 8px;
+  }
   
   
